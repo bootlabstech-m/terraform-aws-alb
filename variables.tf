@@ -73,6 +73,6 @@ variable "certificate_arn" {
   description = "certificate arn value for ssl, used only in https protocol"
 }
 variable "role_arn" {
-    description = "Role ARN"
-    type = string
-}
+  type = string  
+  description = "Role ARN"
+ }
